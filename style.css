@@ -8,7 +8,7 @@
   width: 1140px;
 }
 .nav {
-    padding: 20px;
+  padding: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -24,8 +24,72 @@
   font-size: 28px;
 }
 
-.flexing{
-    display: flex;
-    justify-content: center;
-
+.flexing {
+  display: flex;
+  justify-content: center;
 }
+
+/*  style banner =================================*/
+
+.titleBanner {
+  width: 998px;
+  font-size: 48px;
+  text-align: center;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.banner {
+  border-radius: 5px;
+  width: 1440px;
+  padding: 44px 0px;
+  background-image: url("./assets/Hero-bg.png");
+  background-size: cover;
+}
+.descriptionColor {
+  color: gray;
+  text-align: center;
+}
+.flexBanner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.descriptionBanner {
+  text-align: center;
+  width: 898px !important;
+  line-height: 25px;
+}
+.buttonContact {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(29, 29, 29);
+  border-radius: 5px;
+  padding: 21px 24px;
+  font-weight: 600;
+}
+
+/* tiltle design for all section */
+.tilteHederTitle {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.titleHeader {
+  display: flex;
+  gap: 10px;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.titleHeaderDec {
+  line-height: 20px;
+  width: 898px;
+  color: rgb(122, 122, 122);
+}
+
