@@ -2,7 +2,10 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Azeret Mono", monospace;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.width_1440px {
+  width: 1440px;
 }
 .container {
   width: 1140px;
@@ -42,9 +45,11 @@
   align-items: center;
   justify-content: center;
 }
+.width_1440px {
+  width: 1440px !important;
+}
 .banner {
   border-radius: 5px;
-  width: 1440px;
   padding: 44px 0px;
   background-image: url("./assets/Hero-bg.png");
   background-size: cover;
@@ -89,7 +94,87 @@
 }
 .titleHeaderDec {
   line-height: 20px;
+  margin-bottom: 50px;
   width: 898px;
   color: rgb(122, 122, 122);
 }
 
+/* informationh section design =================== */
+.informations {
+  border-radius: 35px;
+  padding: 80px 97px;
+  margin: 80px 0px;
+  background-color: rgb(243 243 243 / 41%);
+}
+
+.informationCards {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+}
+.cards {
+  height: 240px;
+  width: 946px;
+  padding: 48px;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.descriptionCard {
+  width: 477px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.descriptionCard > h1 {
+  font-size: 24px;
+}
+
+.descriptionCard > button {
+  width: 183px;
+  background: white;
+  border-radius: 5px;
+  padding: 12px 20px;
+}
+
+.descriptionCard > button > a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.descriptionCard {
+  height: 220px;
+  width: 477px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.descriptionCard > h1 {
+  font-size: 24px;
+  width: 380px;
+}
+
+.descriptionCard > button {
+  width: 183px;
+  background: white;
+  border-radius: 5px;
+  padding: 12px 20px;
+}
+
+.descriptionCard > button > a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.descriptionCard > p {
+  line-height: 2;
+}
