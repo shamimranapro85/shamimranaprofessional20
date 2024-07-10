@@ -95,6 +95,7 @@
 .titleHeaderDec {
   line-height: 20px;
   margin-bottom: 50px;
+  line-height: 1.5;
   width: 898px;
   color: rgb(122, 122, 122);
 }
@@ -177,4 +178,144 @@
 
 .descriptionCard > p {
   line-height: 2;
+}
+
+.card2 {
+  justify-content: start !important;
+  gap: 32px !important;
+}
+
+/* intro video styleing */
+
+.videoIntro {
+  padding: 32px;
+  border: 1px solid gray;
+  width: 1076px;
+  height: 550px;
+  border-radius: 20px;
+}
+.videoIntroforYoutube {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+/*  CUREENT TARGET DESIGN */
+.currentTarget {
+  padding: 50px 0;
+}
+.cardsDiv {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  flex-direction: row;
+}
+.cardDiv:first-child {
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+  padding: 40px;
+}
+.cardDiv:nth-child(2) {
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  padding: 40px;
+}
+.cardDiv:last-child {
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+  padding: 40px;
+}
+.cardDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.cardDiv > a {
+  font-weight: bold;
+  color: black;
+}
+.cardDiv > img {
+  width: 40px;
+}
+.cardDiv > p {
+  color: gray;
+}
+
+/* contact section design================== */
+
+.bg-image {
+  background: url("./assets/handshake.jpg");
+
+  width: 1140px;
+  height: 314px;
+  border-radius: 10px;
+  background-size: cover;
+  background-position-y: center;
+}
+
+section#contact {
+  padding: 40px;
+}
+
+.bg-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+
+bg-image > h1 {
+  color: white !important;
+}
+
+.bg-image h1 {
+  color: white;
+}
+
+.bg-image p {
+  color: gray;
+  margin: 25px 0;
+}
+
+.submit > input {
+  padding: 16px;
+  border-radius: 8px;
+  font-size: 18px;
+  width: 328px;
+  outline: none;
+  border: none;
+}
+
+.submit > button {
+  border: none;
+  padding: 16px;
+  font-size: 18px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.footer_main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_main > span {
+  font-weight: bold;
+}
+
+.icons {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 15px;
+}
+
+.footer_flex {
+    padding: 32px 150px;
+    background: rgba(13, 19, 33, 0.03);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
